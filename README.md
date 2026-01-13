@@ -9,3 +9,7 @@
   - google-adk로 도구 사용 에이전트 구현
   - Python 애플리케이션을 서버리스 컨테이너로 Cloud Run에 배포
 ### 3. GPU를 사용하여 Cloud Run에 ADK 에이전트 배포
+  - Cloud Run에 GPU 가속 Gemma 모델 백엔드 배포
+  - Gemma 백엔드에 통합되는 ADK 에이전트 생성 및 배포
+  - ADK 웹 인터페이스를 사용하여 에이전트 테스트
+  - 두 개의 조정된 Cloud Run 서비스에서 오토 스케일링 관찰
